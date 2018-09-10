@@ -7,7 +7,7 @@ import time
 
 #load MNIST data
 
-MNIST_data = h5py.File('/Users/nishantvelugula/Box/IE 534/HW1/MNISTdata.hdf5', 'r')
+MNIST_data = h5py.File('path/to/file', 'r')
 x_train = np.float32(MNIST_data['x_train'][:] )
 y_train = np.int32(np.array(MNIST_data['y_train'][:,0]))
 x_test = np.float32( MNIST_data['x_test'][:] )
