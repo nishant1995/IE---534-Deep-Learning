@@ -176,7 +176,7 @@ for epoch in range(num_epochs):
         torch.save(model, 'models.ckpt')
     
 
-
+#Loading the model
 #model = torch.load('models.ckpt')
 
 
